@@ -28,7 +28,7 @@ gem 'sprockets-rails', '~> 2.2', '>= 2.2.2'
 
 gem 'fat_free_crm', :git => 'git://github.com/fatfreecrm/fat_free_crm.git'
 
-
+gem 'ffcrm_awesome', :path => '/home/lumen/RailsProjects/lcrm/ffcrm_awesome'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
