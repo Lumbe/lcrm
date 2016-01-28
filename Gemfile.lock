@@ -1,4 +1,14 @@
 GIT
+  remote: git://github.com/crossroads/ffcrm_attachments.git
+  revision: 3dad38af9a65b0addb487c42cb6b0d5851c5d588
+  branch: rails4
+  specs:
+    ffcrm_attachments (0.0.2)
+      paperclip
+      rails
+      simple_form
+
+GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
   revision: 0424d3ee1d9073f322d60a4b97d71dfc703a16a4
   specs:
@@ -37,6 +47,22 @@ GIT
       sprockets-rails (= 2.2.2)
       thor
       will_paginate
+
+GIT
+  remote: git://github.com/fatfreecrm/ffcrm_merge.git
+  revision: 061aabc2b7a5f8b89de6d244a104f28b8a6fcc97
+  branch: rails4
+  specs:
+    ffcrm_merge (2.0.0)
+      fat_free_crm (>= 0.14.0)
+
+GIT
+  remote: https://github.com/crossroads/ffcrm_meta_search.git
+  revision: 4c72780731ed8d1238588019266a181b63132861
+  branch: rails4
+  specs:
+    ffcrm_meta_search (1.0.1)
+      fat_free_crm
 
 PATH
   remote: ffcrm_awesome
@@ -280,7 +306,10 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   fat_free_crm!
+  ffcrm_attachments!
   ffcrm_awesome!
+  ffcrm_merge!
+  ffcrm_meta_search!
   jbuilder (~> 2.0)
   jquery-rails
   pg

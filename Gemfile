@@ -30,6 +30,12 @@ gem 'fat_free_crm', :git => 'git://github.com/fatfreecrm/fat_free_crm.git'
 
 gem 'ffcrm_awesome', :path => '/home/lumen/RailsProjects/lcrm/ffcrm_awesome'
 
+gem 'ffcrm_meta_search', :git => 'https://github.com/crossroads/ffcrm_meta_search.git', branch: 'rails4'
+
+gem 'ffcrm_merge', :github => 'fatfreecrm/ffcrm_merge', branch: 'rails4'
+
+gem 'ffcrm_attachments', github: 'crossroads/ffcrm_attachments', branch: 'rails4'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
