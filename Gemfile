@@ -36,6 +36,8 @@ gem 'ffcrm_merge', :github => 'fatfreecrm/ffcrm_merge', branch: 'rails4'
 
 gem 'ffcrm_attachments', github: 'crossroads/ffcrm_attachments', branch: 'rails4'
 
+gem 'bootstrap', '>= 4.0.0.alpha3'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

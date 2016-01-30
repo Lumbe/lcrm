@@ -37,7 +37,8 @@ ru:
   customer: Клиент
   partner: Партнер
   reseller: Реселлер
-  vendor: Производитель
+  vendor: Поставщик
+  buyer: Заказчик
   planned: В плане
   started: Начата
   on_hold: Остановлена
