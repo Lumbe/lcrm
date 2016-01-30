@@ -50,8 +50,6 @@ gem 'bootstrap', '>= 4.0.0.alpha3'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'capistrano', '~> 3.4'
-  gem 'capistrano-rails', '~> 1.1'
 end
 
 group :development do
@@ -62,3 +60,8 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  gem 'capistrano', '~> 3.4'
+  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-rvm', '~> 0.1.2'
+end
