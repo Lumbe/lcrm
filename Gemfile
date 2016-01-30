@@ -28,7 +28,7 @@ gem 'sprockets-rails', '~> 2.2', '>= 2.2.2'
 
 gem 'fat_free_crm', :git => 'git://github.com/fatfreecrm/fat_free_crm.git'
 
-gem 'ffcrm_awesome', '0.0.1', :path => '/home/lumen/RailsProjects/lcrm/ffcrm_awesome'
+#gem 'ffcrm_awesome', '0.0.1', :path => '/home/lumen/RailsProjects/lcrm/ffcrm_awesome'
 
 gem 'ffcrm_meta_search', :git => 'https://github.com/crossroads/ffcrm_meta_search.git', branch: 'rails4'
 
