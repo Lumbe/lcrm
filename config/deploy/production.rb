@@ -62,11 +62,10 @@ role :db,  %w{rails@46.101.152.140}
 #     auth_methods: %w(publickey password)
 #     # password: 'please use keys'
 #   }
-Global options
---------------
- set :ssh_options, {
-    forward_agent: false,
-    auth_methods: %w(password),
-    password: 'user_rails_password',
-    user: 'rails',
- }
+#Global options
+set :ssh_options, {
+   forward_agent: false,
+   auth_methods: %w(password),
+   password: 'user_rails_password',
+   user: 'rails',
+}
