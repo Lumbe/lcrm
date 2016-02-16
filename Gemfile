@@ -28,8 +28,6 @@ gem 'sprockets-rails', '~> 2.2', '>= 2.2.2'
 
 gem 'fat_free_crm', :git => 'git://github.com/fatfreecrm/fat_free_crm.git'
 
-#gem 'ffcrm_awesome', '0.0.1', :path => '/home/lumen/RailsProjects/lcrm/ffcrm_awesome'
-
 gem 'ffcrm_meta_search', :git => 'https://github.com/crossroads/ffcrm_meta_search.git', branch: 'rails4'
 
 gem 'ffcrm_merge', :github => 'fatfreecrm/ffcrm_merge', branch: 'rails4'
@@ -52,6 +50,7 @@ gem 'awesome_print', '~> 1.6', '>= 1.6.1'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'ffcrm_awesome', '0.0.1', :path => '/home/lumen/RailsProjects/lcrm/ffcrm_awesome'
 end
 
 group :development do
@@ -66,4 +65,5 @@ group :production do
   gem 'capistrano', '~> 3.4'
   gem 'capistrano-rails', '~> 1.1'
   gem 'capistrano-rvm', '~> 0.1.2'
+  gem 'ffcrm_awesome', '0.0.1', :path => '/home/rails/lcrm/ffcrm_awesome'
 end
