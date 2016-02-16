@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = FfcrmAwesome::VERSION
   s.authors     = ["lumen"]
   s.email       = ["just.me.sober@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of FfcrmAwesome."
-  s.description = "TODO: Description of FfcrmAwesome."
+  s.homepage    = "http://google.com"
+  s.summary     = "ffcrm custom summary"
+  s.description = "ffcrm custom description"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
