@@ -64,11 +64,6 @@ GIT
     ffcrm_meta_search (1.0.1)
       fat_free_crm
 
-PATH
-  remote: ffcrm_awesome
-  specs:
-    ffcrm_awesome (0.0.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -339,7 +334,6 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   fat_free_crm!
   ffcrm_attachments!
-  ffcrm_awesome (= 0.0.1)!
   ffcrm_merge!
   ffcrm_meta_search!
   jbuilder (~> 2.0)
