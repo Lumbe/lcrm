@@ -38,7 +38,7 @@ gem 'bootstrap', '>= 4.0.0.alpha3'
 
 gem 'awesome_print', '~> 1.6', '>= 1.6.1'
 
-#gem 'ffcrm_awesome', '0.0.1', :path => '/home/lumen/RailsProjects/lcrm/ffcrm_awesome'
+gem 'ffcrm_awesome', '0.0.1', :git => 'https://github.com/Lumbe/ffcrm_awesome.git', branch: 'master'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

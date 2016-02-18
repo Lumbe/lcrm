@@ -17,6 +17,14 @@ GIT
       fat_free_crm (>= 0.14.0)
 
 GIT
+  remote: https://github.com/Lumbe/ffcrm_awesome.git
+  revision: 65acac522498ecbf3e98ce5b32beab5ff90a5648
+  branch: master
+  specs:
+    ffcrm_awesome (0.0.1)
+      rails (~> 4.2.4)
+
+GIT
   remote: https://github.com/crossroads/ffcrm_meta_search.git
   revision: 4c72780731ed8d1238588019266a181b63132861
   branch: rails4
@@ -335,6 +343,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   fat_free_crm!
   ffcrm_attachments!
+  ffcrm_awesome (= 0.0.1)!
   ffcrm_merge!
   ffcrm_meta_search!
   jbuilder (~> 2.0)
