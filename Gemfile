@@ -66,4 +66,5 @@ group :production do
   gem 'capistrano', '~> 3.4'
   gem 'capistrano-rails', '~> 1.1'
   gem 'capistrano-rvm', '~> 0.1.2'
+  gem 'unicorn', '~> 5.0', '>= 5.0.1'
 end
