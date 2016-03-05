@@ -336,6 +336,8 @@ ru:
   mobile_small: мобильный
   open_in_window: Открыть %{value} в новом окне
   phone_small: телефон
+  build_place: место строительства
+  region: регион
   phone_toll_free: Номер 8-800
   pipeline: Pipeline
   same_as_billing: тот же
